@@ -35,3 +35,30 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+ion-header{
+    background: url(assets/img/header-alt.png)
+    no-repeat;
+    min-height: 56px;
+    background-size: cover;
+}
+
+ion-header .header-background{
+    backdrop-filter: none !important;
+}
+
+ion-text{
+    font-size: 1.2em;
+}
+
+ion-content{
+    --background: rgba(63,81,181,1); /* Azul profundo */
+--background: -moz-linear-gradient(top, rgba(63,81,181,1) 0%, rgba(103,58,183,1) 50%, rgba(156,39,176,1) 100%);
+--background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(63,81,181,1)), color-stop(50%, rgba(103,58,183,1)), color-stop(100%, rgba(156,39,176,1)));
+--background: -webkit-linear-gradient(top, rgba(63,81,181,1) 0%, rgba(103,58,183,1) 50%, rgba(156,39,176,1) 100%);
+--background: -o-linear-gradient(top, rgba(63,81,181,1) 0%, rgba(103,58,183,1) 50%, rgba(156,39,176,1) 100%);
+--background: -ms-linear-gradient(top, rgba(63,81,181,1) 0%, rgba(103,58,183,1) 50%, rgba(156,39,176,1) 100%);
+--background: linear-gradient(to bottom, rgba(63,81,181,1) 0%, rgba(103,58,183,1) 50%, rgba(156,39,176,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f51b5', endColorstr='#9c27b0', GradientType=0);
+
+}
